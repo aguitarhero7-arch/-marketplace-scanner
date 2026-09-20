@@ -2,7 +2,9 @@ name: Unpack Marketplace Scanner
 
 on:
   workflow_dispatch:
-
+  push:
+    branches:
+      - main
 permissions:
   contents: write
 
