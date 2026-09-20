@@ -1,0 +1,41 @@
+{
+  "excluded_states": [
+    "AK",
+    "HI"
+  ],
+  "searches": [
+    {
+      "query": "LS3 fuel injectors"
+    },
+    {
+      "query": "LS3 throttle body"
+    },
+    {
+      "query": "LS3 intake manifold"
+    },
+    {
+      "query": "LS2 throttle body"
+    },
+    {
+      "query": "LS2 intake manifold"
+    },
+    {
+      "query": "LS1 throttle body"
+    },
+    {
+      "query": "LS6 throttle body"
+    },
+    {
+      "query": "LS6 intake manifold"
+    },
+    {
+      "query": "LS1 intake manifold"
+    },
+    {
+      "query": "LS7 fuel injectors"
+    },
+    {
+      "query": "LS7 throttle body"
+    }
+  ]
+}
