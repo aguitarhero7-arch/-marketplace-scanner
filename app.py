@@ -1,5 +1,8 @@
 from flask import Flask,render_template,jsonify
-from database import connect
+from database import connect 
+from sources.manual_import import ManualImportSource
+
+
 from scanner import scan
 
 app=Flask(__name__)
