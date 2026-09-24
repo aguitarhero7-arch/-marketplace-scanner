@@ -14,4 +14,3 @@ def api(): return jsonify([dict(x) for x in connect().execute('SELECT * FROM lis
 @app.post('/api/import')
 def import_listings(): return jsonify({'added':scan(ManualImportSource(request.get_json()))})
 if __name__=='__main__': app.run(host='0.0.0.0',port=5000)
-
